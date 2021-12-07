@@ -6,4 +6,8 @@ This script finds out the the movies which have siginificant different voting po
 This script uses k-means algorithm to cluster the movies by revenue and voting average and also test different K number to find out the best fit K from mathematical perspective.
 
 #### datacleaning_meta.ipynb
-This script completed the initial data cleaning of the movis_metadata file. The data cleaning process removed entries that have duplicate and null values, and tranformed genres column from dictionaries to new variables for further analysis.
+This script completed the initial data cleaning of the movies_metadata file. The data cleaning process removed entries that have duplicate and null values, and tranformed genres column from dictionaries to new variables for further analysis.
+
+#### chelsey_data_cleaning
+This script is used to extract key information from credit and movies_metadata file. From the credit table, new variables including number of crew by department, number of crew by gender, director names,gender of director number, of cast members, number of cast by gender are extracted, and defining reputable cast and director based on box office and popularity. 
+From the movie_metadata file, new varibales including genres, number of production companies, number of production companies, language, release year, and seasonablity are generated.
